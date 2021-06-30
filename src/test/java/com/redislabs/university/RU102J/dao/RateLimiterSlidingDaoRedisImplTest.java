@@ -47,7 +47,6 @@ public class RateLimiterSlidingDaoRedisImplTest {
         keyManager.deleteKeys(jedis);
     }
 
-    @Ignore
     @Test
     public void hit() {
         int exceptionCount = 0;
